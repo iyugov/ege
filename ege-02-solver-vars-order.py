@@ -23,7 +23,7 @@ pattern = (
 # Изменение логического выражения, если оно вставлено из редактора формул
 expression = expression.replace('neg','not')
 expression = expression.replace('->','<=')
-expression = expression.replace('oplus','xor')
+expression = expression.replace('oplus','!=')
 expression = expression.replace('equiv','==')
 
 for line in pattern:
